@@ -898,7 +898,7 @@
         {
          "columns":16,
          "firstgid":321,
-         "image":"..\/..\/tools\/tilesets\/Meph_Map_32x32.png",
+         "image":"Meph_Map_32x32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -911,7 +911,7 @@
         {
          "columns":8,
          "firstgid":577,
-         "image":"..\/..\/tools\/tilesets\/Pipoya RPG Tileset 32x32\/[Base]BaseChip_pipo.png",
+         "image":"[Base]BaseChip_pipo.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
