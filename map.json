@@ -204,7 +204,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.mi.niedersachsen.de\/download\/156653\/Leitfaden_NDIG.pdf"
+                 "value":"http:\/\/docplayer.org\/docview\/110\/194900855\/"
                 }],
          "type":"tilelayer",
          "visible":true,
