@@ -204,7 +204,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/docplayer.org\/194900855-Leitfaden-fuer-behoerden-das-ndig-und-andere-gesetze-zur-digitalen-verwaltung.html"
+                 "value":"http:\/\/docplayer.org\/docview\/110\/194900855\/"
                 }],
          "type":"tilelayer",
          "visible":true,
