@@ -258,7 +258,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"erechnung.html"
+                 "value":".\/erechnung.html"
                 }],
          "type":"tilelayer",
          "visible":true,
