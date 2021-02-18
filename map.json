@@ -240,7 +240,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/kikithegecko.github.io\/id2-workadventure\/pptest.html"
+                 "value":"https:\/\/kikithegecko.github.io\/id2-workadventure\/pdftest.html"
                 }],
          "type":"tilelayer",
          "visible":true,
