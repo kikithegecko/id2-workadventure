@@ -1,0 +1,30 @@
+<html>
+    <head>
+	</head>
+    <body style="background-color:powderblue;">
+		<h1>WhatsApp und andere Messenger</h1>
+		<p>Es ist kompliziert. WhatsApp nutzt zwar Ende-zu-Ende-Verschlüsselung für die übermittelten Nachrichteninhalte (Texte, Bilder, Sprachnachrichten etc.), doch die sogenannten Meta-Daten sind zum Teil komplett öffentlich. Eins nach dem anderen:
+		<h3>Exkurs: Ende-zu-Ende-Verschlüsselung</h3>
+		<p>Ende-zu-Ende-Verschlüsselung bedeutet, dass die Nachrichten auf dem Absender*innengerät verschlüsselt werden, noch bevor sie über das Internet abgeschickt werden. Sie bleiben den ganzen Weg über verschlüsselt und können erst nach dem Empfang auf dem Empfänger*innengerät wieder entschlüsselt werden.</p>
+		<img src="e2e.png" alt="Das Prinzip der Ende-zu-Ende-Verschlüsselung"></img>
+		<h3>Datenschutz bei WhatsApp</h3>
+		<p>Im Messaging-Kontext fallen viele personenbezogene Daten an, bespielsweise
+		<ul>
+			<li>Telefonnummer</li>
+			<li>Profilbild</li>
+			<li>Kontakte</li>
+			<li>Nachrichteninhalte (Texte, Fotos, Sprachnachrichten, etc.)</li>
+			<li>Aktivitätsmuster (wann wird üblicherweise mit wem kommuniziert)</li>
+			<li>ggf. Standortdaten</li>
+		</ul>
+		Bei WhatsApp werden nur die Nachrichteninhalte wirklick zuverlässig geschützt, die anderen Informationen müssen als mehr oder weniger öffentlich einsehbar erachtet werden.</p>
+		<p>Telefonnummer und Profilbild werden beim Anbieter unverschlüsselt gespeichert und über eine Programmierschnittstelle (API) zugägnlich gemacht. Es existieren sogar Dritt-Anbieter-Apps, die eine "Überwachung" von WhatsApp-Accounts anhand dieser Daten in Kombination mit dem Aktivitätsstatus erlauben.</p>
+		<p>Der Upload des Telefonbuchs ist der Aspekt an WhatsApp, der die App unvereinbar mit der DSGVO macht. Hierdurch werden bei der Nutzung der App die presonenbezogenen Daten der Kontakte verarbeitet, ohne dass diesen eine Möglichkeit zum Widerspruch eingeräumt wird. Dieses Problem haben auch andere Messaging-Apps, die Telefonbuchdaten im Klartext abgleichen.</p>
+		
+		<h3>Andere Messenger und ihre Bewertung</h3>
+		<p><b><a href="https://signal.org">Signal</a></b> verwendet die selbe Verschlüsselungwie WhatsApp (genauer gesagt wurde das Signal-Team von WhatsApp beauftragt, die Signal-Verschlüsselung auch in WhatsApp einzubauen), auch der Kontaktabgleich passiert hier voll-verschlüsselt und DSGVO-konform. Außerdem wird Signal von einer gemeinnützigen Organisation in den USA betrieben und weiterentwickelt. Der Source Code der App ist öffentlich einsehbar.</p>
+		<p><b><a href="https://telegram.org">Telegram</a></b> hat keinerlei Verbindungen zu den USA, der Messenger wird von einer Londoner Firma entwickelt, das Datenzentrum steht in Dubai. Telegram nutzt für die Nachrichteninhalte standardmäßig keine Ende-zu-Ende-Verschlüsselung und ist deshalb nicht zu empfehlen! In der Vergangenheit wurde oft der große "Datenhunger" des Messengers aufgedeckt, ein Telefonbuch-Abgleich steht auch hier im Konflikt mit der DSGVO. Die App ist zwar ohne Telefonbuchdaten nutzbar, aber nur in eingeschränkter Funktion.</p>
+		<p><b><a href="https://threema.ch">Threema</a></b> ist eine kostenpflichtige Messaging-App aus der Schweiz, deren Apps mittlerweile auch quelloffen sind. Nachrichteninhalte werden Ende-zu-Ende-verschlüsselt übermittelt. Eine Besonderheit an Threema ist, dass der Dienst ohne Telefonnummer genutzt werden kann, die Nutzer*innenkennung besteht aus einer Buchstaben-Zahlen-Kombination.</p>
+		<p><b>iMessage ("Nachrichten")</b> ist die standard-App auf iPhones für SMS. Wenn allerdings zwei iPhone-Nutzer*innen miteinander über diese App kommunizieren, wird statt SMS ein Ende-zu-Ende-verschlüsseltes Messaging-Protokoll verwendet, erkennbar an den blauen statt grünen Nachrichtenblasen. Die nahtlose Integration in das Betriebssystem senkt die Adaptions-Barriere, Nachteil ist jedoch die enge Bindung an die Apple-Plattform. iMessage ist nicht für Android verfügbar.</p>
+    </body>
+</html>
