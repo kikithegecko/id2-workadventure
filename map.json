@@ -132,7 +132,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"https:\/\/kikithegecko.github.io\/id2-workadventure\/tools_messenger.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -150,7 +150,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/video.nsi-hsvn.de\/paella\/ui\/watch.html?id=f8da5169-05a9-4d8e-9200-ec4b0614c02a"
+                 "value":"https:\/\/kikithegecko.github.io\/id2-workadventure\/tools_teamchat.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -168,7 +168,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"https:\/\/kikithegecko.github.io\/id2-workadventure\/tools_videokonferenz.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -186,7 +186,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"https:\/\/kikithegecko.github.io\/id2-workadventure\/tools_office.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -204,7 +204,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"https:\/\/kikithegecko.github.io\/id2-workadventure\/tools_cloud.html"
                 }],
          "type":"tilelayer",
          "visible":true,
