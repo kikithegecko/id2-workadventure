@@ -312,7 +312,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/academic.oup.com\/cybersecurity\/article\/6\/1\/tyaa011\/5920841"
+                 "value":"https:\/\/video.nsi-hsvn.de\/paella\/ui\/watch.html?id=fecf06b7-e075-41f1-b7c1-be27a953feab"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -330,7 +330,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.heise.de\/security\/artikel\/Emotet-Trickbot-Ryuk-ein-explosiver-Malware-Cocktail-4573848.html"
+                 "value":"https:\/\/video.nsi-hsvn.de\/paella\/ui\/watch.html?id=832b539c-6ce9-4d92-8044-bce6d3f302f5"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -348,7 +348,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/de.wikipedia.org\/wiki\/Open_Source"
+                 "value":"https:\/\/video.nsi-hsvn.de\/paella\/ui\/watch.html?id=a8176d65-b415-4f55-aca8-abab00900084"
                 }],
          "type":"tilelayer",
          "visible":true,
